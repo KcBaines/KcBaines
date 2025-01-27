@@ -1,0 +1,68 @@
+/* src/App.css */
+/* Example styles, adjust as needed */
+body {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.nav-links a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation-bar {
+  background-color: #000000;
+  padding: 10px;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-bar ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.content-section {
+  padding: 20px;
+}
+
+.content-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item-card {
+  margin: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #0b0b0b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-links a {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
