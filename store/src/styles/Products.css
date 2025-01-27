@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Forum&family=Handlee&family=Playwrite+NZ:wght@100..400&display=swap");
+
+.products {
+  color: white;
+  text-align: center;
+  font-family: "Forum", serif;
+}
+
+.products-box {
+  width: 57em;
+  height: 35em;
+  margin-left: 25em;
+}
+
+.alert-message {
+  background-color: #dff0d8;
+  border-color: #d0e9c6;
+  font-size: 16px;  /* Slightly larger font size for visibility */
+  position: fixed;  /* Ensure fixed positioning relative to the viewport */
+  top: 50%;  /* Position vertically in the middle */
+  left: 50%;  /* Position horizontally in the middle */
+  transform: translate(-50%, -50%);  /* Offset to center it */
+  z-index: 1050;  /* Make sure it's above other content */
+  padding: 15px 30px;  /* Padding for the alert */
+  max-width: 400px;  /* Optional: Limit the width of the alert */
+  text-align: center;  /* Center the text inside the alert */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: Add a shadow for better visibility */
+}
+
+.alert-message .close {
+  position: absolute;  /* Ensure the close button is positioned correctly */
+  top: 5px;
+  right: 10px;
+}
+
+.products {
+  overflow: visible;
+}
+
+.products-box {
+  overflow: visible;
+}
