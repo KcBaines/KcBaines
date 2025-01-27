@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(219, 235, 250);
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+h2 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.results-list, .favourites-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result-item, .favourite-item {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.result-item img, .favourite-item img {
+  width: 80%;
+  border-radius: 4px;
+}
+
